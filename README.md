@@ -5,4 +5,4 @@ Simple chrome extension to work-around irksome problem with SMIL+SVG
 
 This [Codepen](https://codepen.io/jallers/full/OJRzyOj) demonstrates the issue as of 3/27/2021.
 
-This chrome extension injects a content script that listens to 'visibilitychange' and then, pauses and resumes animations on any SVG with an 'animate' or 'animateTransform' descendant element that has a repeatCount='indefinite'. This prevents the creeping performance problem when reactivating tabs that have been idle on impact websites. At the time of this writing, github.com is impacted.
+This chrome extension injects a content script that listens to 'visibilitychange' and then, pauses and resumes animations on any SVG with an 'animate' or 'animateTransform' descendant element that has a repeatCount='indefinite'. This prevents the creeping performance problem when reactivating tabs that have been idle on impacted websites. At the time of this writing, github.com is impacted.
