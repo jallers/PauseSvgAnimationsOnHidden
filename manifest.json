@@ -1,0 +1,13 @@
+{
+    "name" : "Pause SVG Animation When Hidden",
+    "description": "This extension pauses indefinitely repeating SVG animations while browser tab is hidden. It will resume paused animations when browser tab is visible again.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "author": "Jim Allers",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["pauseSvgOnHidden.js"]
+        }
+    ]
+}
